@@ -6,7 +6,7 @@ Samples for CUDA Developers which demonstrates features in CUDA Toolkit. This ve
 
 This section describes the release notes for the CUDA Samples on GitHub only.
 
-### CUDA 12.4
+### CUDA 12.5
 
 - Hopper Confidential Computing Modes do not support Video samples, nor do they support host-pinned memory due to the restrictions created by CPU IOMMUs. The following Samples are affected:
   - convolutionTexture
