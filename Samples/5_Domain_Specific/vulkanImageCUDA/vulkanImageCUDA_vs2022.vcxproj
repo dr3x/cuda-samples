@@ -42,7 +42,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <IntDir>$(Platform)/$(Configuration)/</IntDir>
-    <IncludePath>$(IncludePath)</IncludePath>
+    <IncludePath>../../../Common/glfw-3.4.bin.WIN64/include;$(IncludePath)</IncludePath>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
@@ -59,7 +59,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <AdditionalDependencies>cudart_static.lib;vulkan-1.lib;glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(CudaToolkitLibDir);../../../common/lib/$(PlatformName);$(VULKAN_SDK)/Lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../../../common/lib/$(PlatformName);$(VULKAN_SDK)/Lib;../../../Common/glfw-3.4.bin.WIN64/lib-vc2022;$(CudaToolkitLibDir)</AdditionalLibraryDirectories>
       <OutputFile>$(OutDir)/vulkanImageCUDA.exe</OutputFile>
     </Link>
     <CudaCompile>
