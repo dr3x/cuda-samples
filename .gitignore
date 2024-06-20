@@ -398,3 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 Common/FreeImage/*
 /Common/glfw-3.4.bin.WIN64
+*.pgm
